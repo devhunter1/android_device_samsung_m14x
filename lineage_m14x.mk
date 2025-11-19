@@ -26,9 +26,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_m14x
-PRODUCT_DEVICE := m14x
+PRODUCT_DEVICE := f14x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M146B
+PRODUCT_MODEL := SM-E146B
 PRODUCT_MANUFACTURER := samsung
 
 ## Boot Animation
@@ -38,7 +38,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="m14xnsxx-user 14 UP1A.231005.007 M146BXXS9DYG2 release-keys" \
+    BuildDesc="e14xnsxx-user 14 UP1A.231005.007 E146BXXS9DYG2 release-keys" \
     BuildFingerprint=samsung/m14xnsxx/essi:14/UP1A.231005.007/M146BXXS9DYG2:user/release-keys \
-    DeviceProduct=m14xnsxx \
-    SystemName=m14xnsxx
+    DeviceProduct=f14xnsxx \
+    SystemName=f14xnsxx
+
